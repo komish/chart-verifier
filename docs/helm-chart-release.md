@@ -26,7 +26,7 @@ Chart verifier - release creation is automated through a GitHub workflow. To cre
    - The submitter has approval authority for the repository.
    - All tests pass. 
 
-1. After the PR is merged, the "release.yaml" workflow runs and create the GitHub release along with all its assets:
+1. After the PR is mrged, the "release.yaml" workflow runs and create the GitHub release along with all its assets:
 
     - A container image is built and pushed to Quay under two tags: ```latest``` and one corresponding to the version number (```x.y.z``` without leading ```v``).
     - A tarball is created and attached to the GitHub release.
