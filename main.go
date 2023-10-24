@@ -15,8 +15,13 @@
  */
 package main
 
-import "github.com/redhat-certification/chart-verifier/cmd"
+import (
+	"fmt"
+
+	"github.com/redhat-certification/chart-verifier/cmd"
+)
 
 func main() {
+	fmt.Println("test")
 	cmd.Execute()
 }

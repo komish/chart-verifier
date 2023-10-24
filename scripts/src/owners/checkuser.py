@@ -74,6 +74,7 @@ def check_for_restricted_file(api_url):
 
 
 def main():
+    print("Hello")
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-a",
