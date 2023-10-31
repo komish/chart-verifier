@@ -27,6 +27,7 @@ jobs:
                 path: "chart-verifier"
 
             - name: Setup Go
+              working-directory: ./chart-verifier
               uses: actions/setup-go@v4
               with:
                 go-version-file: go.mod
